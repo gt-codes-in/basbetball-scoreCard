@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+                <div class="scorecardH">
+                    <p id="homescore">0</p>
+                </div>
+                <div class="incr">
+                    <button id="oneplusHH">+1</button>
+                    <button id="twoplusHH">+2</button>
+                    <button id="threeplusHH">+3</button>
+                </div>
+                <div class="fouls">
+                    <button onclick="foulH()">Fouls :</button>
+                    <span id="count-foulsH">0</span>
+                </div>
+            </div>
+            <div class="timer">
+                <span>COUNTDOWN :</span>
+                <span id="time_min"></span>
+            </div>
+            <div class="guest">
+                <h3>GUEST</h3>
+                <div class="scorecardG">
+                    <p id="guestscore">0</p>
+                </div>
+                <div class="incr">
+                    <button id="oneplusGG">+1</button>
+                    <button id="twoplusGG">+2</button>
+                    <button id="threeplusGG">+3</button>
+                </div>
+                <div class="fouls">
+                    <button onclick="foulG()">Fouls :</button>
+                    <span id="count-foulsG">0</span>
+                </div>
+            </div>
+        </div>
+        <button id="newgame" onclick="reset()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>

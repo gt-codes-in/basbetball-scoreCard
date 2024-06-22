@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    user-select: none;
+}
+
+.container {
+    /* height: 100vh; */
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    /* max-width: 100px; */
+}
+
+/* button {
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+} */
+
+h3 {
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorecardH {
+    background-color: black;
+    border-radius: 8px;
+    height: 120px;
+    width: 155px;
+    border: 2px solid wheat;
+}
+
+.scorecardG {
+    background-color: black;
+    border-radius: 8px;
+    height: 120px;
+    width: 155px;
+    border: 2px solid wheat;
+}
+
+p {
+    color: #F94F6D;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.incr {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.incr button {
+    height: 45px;
+    width: 45px;
+    color: wheat;
+    border: 3px solid grey;
+    border-radius: 8px;
+    /* opacity: 0.5; */
+    background-color: #1B244A;
+}
+
+#newgame {
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 0;
+    height: 45px;
+    width: 105px;
+    /* background-color: #F94F6D; */
+    color: wheat;
+    border: 3px solid grey;
+    border-radius: 8px;
+    background-color: #1B244A;
+}
+
+.timer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* background-color: black; */
+    height: 100px;
+    width: 120px;
+    border: 1px solid;
+}
+
+.fouls {
+    padding: 0;
+    margin: 10px 0px 0 20px;
+    color: wheat;
+    display: flex;
+}
+
+.fouls button {
+    font-size: 18px;
+    color: wheat;
+    background-color: #1B244A;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+#count-foulsH {
+    /* background-color: #F94F6D; */
+    /* border: 1px solid; */
+    height: 25px;
+    width: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+#count-foulsG {
+    /* background-color: #F94F6D; */
+    /* border: 1px solid; */
+    height: 25px;
+    width: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 5px;
+}
